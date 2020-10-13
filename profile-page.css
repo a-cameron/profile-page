@@ -1,31 +1,12 @@
-.container .leftSidebar img {
-    width: 1000px;
-    height: 900px;
+.left-panel-image {
+    float: left;
+    max-width: 300%;
+    height: 300px;
   }
   
-  .leftSidebar {
-      width: 100px;
-      height: 300px;
-      position:fixed;
-  }
   .mainContent {
-      width: 1500px;
-      height: 300px;
-      float: right;
-  }
-  
-  
-  @media (max-width: 450px){
-      .leftSidebar {
-          width: 80%; 
-          margin: 0 auto;
-          position:inherit; 
-      }
-      .mainContent {
-          width: 80%; 
-          margin: 0 auto;
-          float:none; 
-      }
+    margin: 50px;
+    float: left;
   }
   
   .profile {
@@ -33,7 +14,7 @@
     height: 80px;
     border-radius: 50%;
     position: absolute;
-    margin: 5px;
+    margin: 10px;
   }
   
   .mainContent {
