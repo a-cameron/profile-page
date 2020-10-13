@@ -1,11 +1,11 @@
 .left-panel-image {
     float: left;
-    max-width: 300%;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
   }
   
   .mainContent {
-    margin: 50px;
+    margin: 30px;
     float: left;
   }
   
