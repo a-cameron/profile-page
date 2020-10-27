@@ -1,3 +1,7 @@
+.container {
+  grid-template-columns: 60% 40%;
+}
+
 .left-panel-image {
     float: left;
     max-width: 100%;
